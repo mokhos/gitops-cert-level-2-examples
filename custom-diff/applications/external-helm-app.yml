@@ -29,5 +29,5 @@ spec:
         - /metadata/annotations/creation
     - kind: secret
       jsonPointers:
-        - .spec.data | select (.my-password)
+        - .spec.data.my-password
    
